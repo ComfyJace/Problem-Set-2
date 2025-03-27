@@ -120,9 +120,10 @@ void Matchmaker::startMatchmaking() {
     }
     
     // Now stop remaining dungeons
+    std::cout << "Stopping dungeons " << std::endl;
     for (auto& dungeon : dungeonQueue) {
-        std::cout << "Stopping occupied dungeon " << std::endl;
         dungeon->stop();
+        dungeon->displayStats();
     }
 }
 

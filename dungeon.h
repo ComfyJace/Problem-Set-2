@@ -20,6 +20,7 @@ class Dungeon {
         void assignParty(std::shared_ptr<Party> party);
         void stop();
         std::atomic<bool> isOccupied;
+        void displayStats();
 
     private:
         size_t partyID;
@@ -34,4 +35,5 @@ class Dungeon {
 
         // Add a clear time to the dungeon
         void setClearTime(int clearTime);
+
 };
