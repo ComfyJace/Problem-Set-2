@@ -1,3 +1,5 @@
+// Created by: Jason Erwin Clyde V. Dimalanta (ID: 12198331)
+
 #include "main.h"
 
 int main() {

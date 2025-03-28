@@ -1,3 +1,4 @@
+// Created by: Jason Erwin Clyde V. Dimalanta (ID: 12198331)
 #include "dungeon.h"
 
 Dungeon::Dungeon(size_t partyID, size_t ID):

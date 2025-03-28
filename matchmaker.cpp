@@ -1,3 +1,4 @@
+// Created by: Jason Erwin Clyde V. Dimalanta (ID: 12198331)
 #include "matchmaker.h"
 
 // Singleton instance
@@ -106,7 +107,6 @@ void Matchmaker::startMatchmaking() {
         }  
     }
 
-    std::cout << "Matchmaking after while loop" << std::endl;
     bool allStopped = false;
     while (!allStopped) {
         allStopped = true;

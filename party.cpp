@@ -1,5 +1,5 @@
+// Created by: Jason Erwin Clyde V. Dimalanta (ID: 12198331)
 #include "party.h"
-
 
 Party::Party(int partySize, int numDPS, int numHealer, int numTank, size_t partyClearTime,  size_t ID) :
     partySize(partySize),
