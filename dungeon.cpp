@@ -43,7 +43,7 @@ void Dungeon::run() {
         if (!isOccupied || currentParty == nullptr) continue;
 
         // Process party
-        std::cout << "Dungeon " << ID << " is Active" << currentParty->getID() << "." << std::endl;
+        std::cout << "Dungeon " << ID << " is Active" << "." << std::endl;
         lock.unlock();
         std::this_thread::sleep_for(std::chrono::seconds(currentParty->getClearTime()));
         lock.lock();

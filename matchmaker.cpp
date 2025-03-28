@@ -99,8 +99,7 @@ void Matchmaker::startMatchmaking() {
                     partyQueue.pop();
                     dungeon->assignParty(party);
                     
-                    std::cout << "Party assigned to dungeon allegedly" << std::endl;
-                    std::cout << "Party queue is now: " << partyQueue.size() << std::endl;
+          
                 }
                 break;
             }  
